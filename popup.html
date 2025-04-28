@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Налаштування</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<img src="images/settings.gif" id="settings" alt="settings"/>
+<h1>Налаштування</h1>
+
+<label for="apiKey">API Key:</label>
+<input type="password" id="apiKey" placeholder="Введіть ваш API ключ">
+
+<br><br>
+
+<label for="questionSelector">Селектор запитання:</label>
+<input type="text" id="questionSelector" placeholder='Напр. data-functional-selector="block-title"' value='data-functional-selector="block-title"'>
+
+<br><br>
+
+<label for="answerSelectorPrefix">Префікс селектора відповіді:</label>
+<input type="text" id="answerSelectorPrefix" placeholder='Напр. data-functional-selector="answer-"' value='data-functional-selector="answer-{i}"'>
+
+<br><br>
+
+<button id="saveSettings">Зберегти</button>
+
+<script src="popup.js"></script>
+</body>
+</html>
