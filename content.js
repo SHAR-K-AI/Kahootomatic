@@ -154,5 +154,5 @@ async function updateQuestionAndAnswers() {
 
 (async function() {
     await loadSettings();
-    setInterval(updateQuestionAndAnswers, 500);
+    setInterval(updateQuestionAndAnswers, 100);
 })();
