@@ -2,7 +2,8 @@
 
 Kahootomatic — це додаток, який автоматично зчитує запитання і варіанти відповідей на сторінці Kahoot!, відправляє їх у Google Gemini API, отримує правильні відповіді і самостійно клікає на них!
 
-[https://www.youtube.com/watch?v=j3SHyq6vylE](https://www.youtube.com/watch?v=j3SHyq6vylE)
+[https://www.youtube.com/watch?v=THajbRgu-vI](https://www.youtube.com/watch?v=THajbRgu-vI)
+
 
 <img src="/images/readme.png" alt="Kahootomatic Demo" width="800"/>
 
